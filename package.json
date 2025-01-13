@@ -1,0 +1,30 @@
+{
+  "name": "cryclans",
+  "version": "1.0.0",
+  "description": "MineBlaze clan bot",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node --no-warnings bot.js",
+    "build": "electron-builder"
+  },
+  "dependencies": {
+    "minecraft-protocol": "^1.26.5",
+    "mineflayer": "^4.25.0",
+    "prismarine-chat": "^1.9.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "build": {
+    "appId": "com.example.botmanager",
+    "productName": "Bot Manager",
+    "files": [
+      "src/**/*",
+      "settings.json"
+    ],
+    "win": {
+      "target": "nsis"
+    }
+  },
+  "author": "CRYTEAM"
+}
