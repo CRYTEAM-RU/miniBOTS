@@ -1,7 +1,7 @@
 @echo off
-set /p HOST="Введите хост: "
-set /p USERNAME="Введите никнейм: "
-set /p VERSION="Введите версию: "
+set /p HOST="server IP: "
+set /p USERNAME="Nick: "
+set /p VERSION="version(primer 1.20 1.20.1): "
 
 echo Запуск бота с параметрами:
 echo Хост: %HOST%
